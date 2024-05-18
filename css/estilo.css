@@ -1,0 +1,93 @@
+.cabeça{
+    background-color: rgba(160, 193, 223, 0.219);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100px;
+}
+.logotipo{
+    width: 200px;
+    padding: 10px;
+}
+
+    
+
+.navegacao{
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+
+}
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/img/pexels-freestocks-76942.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-optical-sizing: auto;
+    background-position: center;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: black;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1, h2{
+    font-size: 25px;
+    font-weight: 300px;
+    padding: 10px;
+}
+h1,h2:hover{
+    cursor:pointer;
+
+}
+.conteudo{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    flex-direction: column;
+
+
+}
+.rodape{
+    margin-top: 2000px;
+    margin-left: 850px;
+    font-size: 20px
+}
+.botao{
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+}
+.botao:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+
